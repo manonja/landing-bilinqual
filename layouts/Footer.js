@@ -6,7 +6,6 @@ export default Footer;
 const DefaultFooter = () => {
   return (
       <footer className="main-footer footer-one rel z-1 mt-100">
-        <div className="container">
           <div className="footer-newsletter text-white">
             <div className="row align-items-center justify-content-between">
               <div className="col-lg-5">
@@ -34,7 +33,6 @@ const DefaultFooter = () => {
                   </form>
                 </div>
               </div>
-            </div>
           </div>
         </div>
         <div className="container">
